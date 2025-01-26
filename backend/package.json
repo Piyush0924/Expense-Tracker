@@ -5,7 +5,8 @@
   "main": "App.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon App.js"
+    "dev": "nodemon App.js",
+    "start": "node App.js"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
-    "validator": "^13.9.0"
+    "validator": "^13.9.0",
+    "vercel": "^28.16.4"
   }
 }
